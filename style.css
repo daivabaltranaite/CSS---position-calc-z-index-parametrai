@@ -1,0 +1,69 @@
+.pavadinimas {
+  font-size: 30px;
+  font-weight: bold;
+  position: fixed;
+  z-index: 1;
+  text-align: center;
+  width: 100%;
+  top: 0;
+}
+
+.pirmas {
+  position: relative;
+  width: 800px;
+  height: 500px;
+  background-color: orangered;
+  margin: 40px auto;
+  border: 1px solid orangered;
+}
+
+.kaire-virsus {
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  position: absolute;
+}
+
+.kaire-apacia {
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+
+.desine-virsus {
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.desine-apacia {
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+.antras {
+  position: relative;
+  width: 800px;
+  height: 500px;
+  background-color: orangered;
+  margin: 0 auto;
+}
+
+.sucentruota {
+  width: 360px;
+  height: 360px;
+  background-color: white;
+  position: absolute;
+  top: calc(50% - 180px);
+  left: calc(50% - 180px);
+}
